@@ -9,10 +9,10 @@ class Question {
     }
 }
 let questions = [
-    new Question("Pour combien d'euros tu fais le plein ?!", ["Gratuit ça", "Une bonne centaine je dirais", "Qui a la reponse meme ?", "Je suis pas une balance."], "Gratuit ça"),
-    new Question("Es-ce que tu PEP'S pour sauver la daronne ?", ["azy la daronne à fait son temp","azy une fois aux chalet", "on lfaisait deja avant donc tranquil", "je suis toujours pas une poukav"], "on lfaisait deja avant donc tranquil"),
-    new Question("Combien de round pour te metre k.o ?", ["1 seul uesh", "beaucoup je crois", "aux nom je vais rien dire", "s/o le fc zoulette on fuit"], "aux nom je vais rien dire"),
-    new Question("Es-ce que t'a deja été ? (filosof ici)", ["termine ta phrase sinon bagarre","Et toi, sue dit-tu de la causalité?", "oui, je crois.", "ouga bouga"], "ouga bouga")
+    new Question("", ["", ""], ""),
+    new Question("", ["",""], ""),
+    new Question("", ["", ""], ""),
+    new Question("", ["",""], "")
 ];
 class Quiz {
     constructor(questions) {
