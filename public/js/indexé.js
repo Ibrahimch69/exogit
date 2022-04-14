@@ -9,10 +9,10 @@ class Question {
     }
 }
 let questions = [
-    new Question("", ["", ""], ""),
-    new Question("", ["",""], ""),
-    new Question("", ["", ""], ""),
-    new Question("", ["",""], "")
+    new Question("", ["oui", "non"], ""),
+    new Question("", ["oui", "non"], ""),
+    new Question("", ["oui", "non"], ""),
+    new Question("", ["oui", "non"], "")
 ];
 class Quiz {
     constructor(questions) {
